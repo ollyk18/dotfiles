@@ -19,6 +19,8 @@ export PS1="\[\033[00m\][\[\033[01;36m\]\t \[\033[01;32m\]\u\[\033[00m\]@\[\033[
 # Working Bash Prompt without colour
 # export PS1="[\u@\h \t :\W]\$ "
 
+# set History format
+export HISTIMEFORMAT="%d/%h/%Y %H:%M:%S "
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
